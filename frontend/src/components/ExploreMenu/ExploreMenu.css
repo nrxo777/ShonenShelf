@@ -14,7 +14,7 @@
     columns: #808080;
 }
 
-.explore-menu-list{
+/* .explore-menu-list{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -26,6 +26,29 @@
     &::-webkit-scrollbar {
         display: none;
     }
+} */
+
+.explore-menu-list {
+    display: flex;
+    justify-content: space-between; /* Or center if you want them centered */
+    align-items: center;
+    text-align: center;
+    margin: 20px 0; /* Shorthand for margin: 20px 0px; */
+    flex-wrap: wrap; /* Key for responsiveness */
+}
+
+.explore-menu-list > * { /* Targets direct children of the list */
+    margin: 10px; /* Adjust spacing between items */
+}
+
+/* Consider styling the scrollbar instead of hiding it */
+.explore-menu-list::-webkit-scrollbar {
+    width: 8px; /* Adjust width as needed */
+}
+
+.explore-menu-list::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.2); 
+    border-radius: 4px;
 }
 
 .explore-menu-list-item img{
@@ -52,4 +75,11 @@
 .explore-menu-list-item .active{
     border: 4px solid tomato;
     padding: 2px;
+}
+
+@media (max-width:1050) {
+    .explore-menu-text{
+        max-width: 100%;
+        font-size: 14px;
+    }
 }
