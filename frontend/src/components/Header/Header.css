@@ -1,9 +1,12 @@
 .header {
     height: 34vw;
     margin: 30px auto;
-    background: url('/header_img.png') no-repeat;
+    background: url('/op_banner.png') no-repeat;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
     background-size: contain;
     position: relative;
+    background-color: #6D2323;
+
 }
 
 .header-content {
@@ -31,10 +34,10 @@
 
 .header-content button{
     border: none;
-    color: #747474;
+    color: #6D2323;
     font-weight: 500;
     padding: 1vw 2.3vw;
-    background-color: white;
+    background-color: #E5D0AC;
     font-size: max(1vw, 13px);
     border-radius: 50px;
     cursor: pointer;

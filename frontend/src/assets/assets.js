@@ -1,6 +1,6 @@
 import basket_icon from './basket_icon.png'
 import logo from './logo.png'
-import header_img from './header_img.png'
+import op_banner from './op_banner.png'
 import search_icon from './search_icon.png'
 import menu_1 from './menu_1.png'
 import menu_2 from './menu_2.png'
@@ -11,38 +11,38 @@ import menu_6 from './menu_6.png'
 import menu_7 from './menu_7.png'
 import menu_8 from './menu_8.png'
 
-import food_1 from './food_1.png'
-import food_2 from './food_2.png'
-import food_3 from './food_3.png'
-import food_4 from './food_4.png'
-import food_5 from './food_5.png'
-import food_6 from './food_6.png'
-import food_7 from './food_7.png'
-import food_8 from './food_8.png'
-import food_9 from './food_9.png'
-import food_10 from './food_10.png'
-import food_11 from './food_11.png'
-import food_12 from './food_12.png'
-import food_13 from './food_13.png'
-import food_14 from './food_14.png'
-import food_15 from './food_15.png'
-import food_16 from './food_16.png'
-import food_17 from './food_17.png'
-import food_18 from './food_18.png'
-import food_19 from './food_19.png'
-import food_20 from './food_20.png'
-import food_21 from './food_21.png'
-import food_22 from './food_22.png'
-import food_23 from './food_23.png'
-import food_24 from './food_24.png'
-import food_25 from './food_25.png'
-import food_26 from './food_26.png'
-import food_27 from './food_27.png'
-import food_28 from './food_28.png'
-import food_29 from './food_29.png'
-import food_30 from './food_30.png'
-import food_31 from './food_31.png'
-import food_32 from './food_32.png'
+import manga_1 from './manga_1.png'
+import manga_2 from './manga_2.png'
+import manga_3 from './manga_3.png'
+import manga_4 from './manga_4.png'
+import manga_5 from './manga_5.png'
+import manga_6 from './manga_6.png'
+import manga_7 from './manga_7.png'
+import manga_8 from './manga_8.png'
+import manga_9 from './manga_9.png'
+import manga_10 from './manga_10.png'
+import manga_11 from './manga_11.png'
+import manga_12 from './manga_12.png'
+import manga_13 from './manga_13.png'
+import manga_14 from './manga_14.png'
+import manga_15 from './manga_15.png'
+import manga_16 from './manga_16.png'
+import manga_17 from './manga_17.png'
+import manga_18 from './manga_18.png'
+import manga_19 from './manga_19.png'
+import manga_20 from './manga_20.png'
+import manga_21 from './manga_21.png'
+import manga_22 from './manga_22.png'
+import manga_23 from './manga_23.png'
+import manga_24 from './manga_24.png'
+import manga_25 from './manga_25.png'
+import manga_26 from './manga_26.png'
+import manga_27 from './manga_27.png'
+import manga_28 from './manga_28.png'
+import manga_29 from './manga_29.png'
+import manga_30 from './manga_30.png'
+import manga_31 from './manga_31.png'
+import manga_32 from './manga_32.png'
 
 import add_icon_white from './add_icon_white.png'
 import add_icon_green from './add_icon_green.png'
@@ -63,7 +63,7 @@ import parcel_icon from './parcel_icon.png'
 export const assets = {
     logo,
     basket_icon,
-    header_img,
+    op_banner,
     search_icon,
     rating_starts,
     add_icon_green,
@@ -84,267 +84,267 @@ export const assets = {
 
 export const menu_list = [
     {
-        menu_name: "Salad",
+        menu_name: "Shonen",
         menu_image: menu_1
     },
     {
-        menu_name: "Rolls",
+        menu_name: "Seinen",
         menu_image: menu_2
     },
     {
-        menu_name: "Deserts",
+        menu_name: "Kodomomuke",
         menu_image: menu_3
     },
     {
-        menu_name: "Sandwich",
+        menu_name: "Isekai",
         menu_image: menu_4
     },
     {
-        menu_name: "Cake",
+        menu_name: "Horror",
         menu_image: menu_5
     },
     {
-        menu_name: "Pure Veg",
+        menu_name: "Fantasy",
         menu_image: menu_6
     },
     {
-        menu_name: "Pasta",
+        menu_name: "Sci-Fi",
         menu_image: menu_7
     },
     {
-        menu_name: "Noodles",
+        menu_name: "Comedy",
         menu_image: menu_8
     }]
 
-export const food_list = [
+export const manga_list = [
     {
         _id: "1",
-        name: "Greek salad",
-        image: food_1,
+        name: "Dragon Ball",
+        image: manga_1,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        description: "Manga and anime foster creativity and appreciation for visual storytelling.",
+        category: "Shonen"
     },
     {
         _id: "2",
-        name: "Veg salad",
-        image: food_2,
+        name: "One Piece",
+        image: manga_2,
         price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        description: "Manga and anime foster creativity and appreciation for visual storytelling.",
+        category: "Shonen"
     }, {
         _id: "3",
-        name: "Clover Salad",
-        image: food_3,
+        name: "Naruto",
+        image: manga_3,
         price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        description: "Manga and anime foster creativity and appreciation for visual storytelling.",
+        category: "Shonen"
     }, {
         _id: "4",
-        name: "Chicken Salad",
-        image: food_4,
+        name: "Bleach",
+        image: manga_4,
         price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Salad"
+        description: "Manga and anime foster creativity and appreciation for visual storytelling.",
+        category: "Shonen"
     }, {
         _id: "5",
-        name: "Lasagna Rolls",
-        image: food_5,
+        name: "Tokyo Ghoul",
+        image: manga_5,
         price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        description: "Manga and anime foster creativity and appreciation for visual storytelling.",
+        category: "Seinen"
     }, {
         _id: "6",
-        name: "Peri Peri Rolls",
-        image: food_6,
+        name: "Monster",
+        image: manga_6,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        description: "Manga and anime foster creativity and appreciation for visual storytelling.",
+        category: "Seinen"
     }, {
         _id: "7",
-        name: "Chicken Rolls",
-        image: food_7,
+        name: "Vinland Saga",
+        image: manga_7,
         price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        description: "Manga and anime foster creativity and appreciation for visual storytelling.",
+        category: "Seinen"
     }, {
         _id: "8",
-        name: "Veg Rolls",
-        image: food_8,
+        name: "Berserk",
+        image: manga_8,
         price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Rolls"
+        description: "Manga and anime foster creativity and appreciation for visual storytelling.",
+        category: "Seinen"
     }, {
         _id: "9",
-        name: "Ripple Ice Cream",
-        image: food_9,
+        name: "Hamtaro",
+        image: manga_9,
         price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        description: "Manga and anime foster creativity and appreciation for visual storytelling.",
+        category: "Kodomomuke"
     }, {
         _id: "10",
-        name: "Fruit Ice Cream",
-        image: food_10,
+        name: "Yo-kai Watch",
+        image: manga_10,
         price: 22,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        description: "Manga and anime foster creativity and appreciation for visual storytelling.",
+        category: "Kodomomuke"
     }, {
         _id: "11",
-        name: "Jar Ice Cream",
-        image: food_11,
+        name: "Pokémon",
+        image: manga_11,
         price: 10,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        description: "Manga and anime foster creativity and appreciation for visual storytelling.",
+        category: "Kodomomuke"
     }, {
         _id: "12",
-        name: "Vanilla Ice Cream",
-        image: food_12,
+        name: "Doraemon",
+        image: manga_12,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Deserts"
+        description: "Manga and anime foster creativity and appreciation for visual storytelling.",
+        category: "Kodomomuke"
     },
     {
         _id: "13",
-        name: "Chicken Sandwich",
-        image: food_13,
+        name: "Sword Art Online",
+        image: manga_13,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        description: "Manga and anime foster creativity and appreciation for visual storytelling.",
+        category: "Isekai"
     },
     {
         _id: "14",
-        name: "Vegan Sandwich",
-        image: food_14,
+        name: "Mushoku Tensei",
+        image: manga_14,
         price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        description: "Manga and anime foster creativity and appreciation for visual storytelling.",
+        category: "Isekai"
     }, {
         _id: "15",
-        name: "Grilled Sandwich",
-        image: food_15,
+        name: "Konosuba",
+        image: manga_15,
         price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        description: "Manga and anime foster creativity and appreciation for visual storytelling.",
+        category: "Isekai"
     }, {
         _id: "16",
-        name: "Bread Sandwich",
-        image: food_16,
+        name: "Re:Zero",
+        image: manga_16,
         price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Sandwich"
+        description: "Manga and anime foster creativity and appreciation for visual storytelling.",
+        category: "Isekai"
     }, {
         _id: "17",
-        name: "Cup Cake",
-        image: food_17,
+        name: "Junji Ito Collection",
+        image: manga_17,
         price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        description: "Manga and anime foster creativity and appreciation for visual storytelling.",
+        category: "Horror"
     }, {
         _id: "18",
-        name: "Vegan Cake",
-        image: food_18,
+        name: "Shiki",
+        image: manga_18,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        description: "Manga and anime foster creativity and appreciation for visual storytelling.",
+        category: "Horror"
     }, {
         _id: "19",
-        name: "Butterscotch Cake",
-        image: food_19,
+        name: "Another",
+        image: manga_19,
         price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        description: "Manga and anime foster creativity and appreciation for visual storytelling.",
+        category: "Horror"
     }, {
         _id: "20",
-        name: "Sliced Cake",
-        image: food_20,
+        name: "Parasyte",
+        image: manga_20,
         price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Cake"
+        description: "Manga and anime foster creativity and appreciation for visual storytelling.",
+        category: "Horror"
     }, {
         _id: "21",
-        name: "Garlic Mushroom ",
-        image: food_21,
+        name: "Made in Abyss ",
+        image: manga_21,
         price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        description: "Manga and anime foster creativity and appreciation for visual storytelling.",
+        category: "Fantasy"
     }, {
         _id: "22",
-        name: "Fried Cauliflower",
-        image: food_22,
+        name: "Record of Lodoss War",
+        image: manga_22,
         price: 22,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        description: "Manga and anime foster creativity and appreciation for visual storytelling.",
+        category: "Fantasy"
     }, {
         _id: "23",
-        name: "Mix Veg Pulao",
-        image: food_23,
+        name: "Slayers",
+        image: manga_23,
         price: 10,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        description: "Manga and anime foster creativity and appreciation for visual storytelling.",
+        category: "Fantasy"
     }, {
         _id: "24",
-        name: "Rice Zucchini",
-        image: food_24,
+        name: "Fullmetal Alchemist",
+        image: manga_24,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pure Veg"
+        description: "Manga and anime foster creativity and appreciation for visual storytelling.",
+        category: "Fantasy"
     },
     {
         _id: "25",
-        name: "Cheese Pasta",
-        image: food_25,
+        name: "Blame!",
+        image: manga_25,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        description: "Manga and anime foster creativity and appreciation for visual storytelling.",
+        category: "Sci-Fi"
     },
     {
         _id: "26",
-        name: "Tomato Pasta",
-        image: food_26,
+        name: "Space Brothers",
+        image: manga_26,
         price: 18,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        description: "Manga and anime foster creativity and appreciation for visual storytelling.",
+        category: "Sci-Fi"
     }, {
         _id: "27",
-        name: "Creamy Pasta",
-        image: food_27,
+        name: "Planetes",
+        image: manga_27,
         price: 16,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        description: "Manga and anime foster creativity and appreciation for visual storytelling.",
+        category: "Sci-Fi"
     }, {
         _id: "28",
-        name: "Chicken Pasta",
-        image: food_28,
+        name: "Akira",
+        image: manga_28,
         price: 24,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Pasta"
+        description: "Manga and anime foster creativity and appreciation for visual storytelling.",
+        category: "Sci-Fi"
     }, {
         _id: "29",
-        name: "Buttter Noodles",
-        image: food_29,
+        name: "Saiki K",
+        image: manga_29,
         price: 14,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        description: "Manga and anime foster creativity and appreciation for visual storytelling.",
+        category: "Comedy"
     }, {
         _id: "30",
-        name: "Veg Noodles",
-        image: food_30,
+        name: "Grand Blue",
+        image: manga_30,
         price: 12,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        description: "Manga and anime foster creativity and appreciation for visual storytelling.",
+        category: "Comedy"
     }, {
         _id: "31",
-        name: "Somen Noodles",
-        image: food_31,
+        name: "Nichijou",
+        image: manga_31,
         price: 20,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        description: "Manga and anime foster creativity and appreciation for visual storytelling.",
+        category: "Comedy"
     }, {
         _id: "32",
-        name: "Cooked Noodles",
-        image: food_32,
+        name: "Gintama",
+        image: manga_32,
         price: 15,
-        description: "Food provides essential nutrients for overall health and well-being",
-        category: "Noodles"
+        description: "Manga and anime foster creativity and appreciation for visual storytelling.",
+        category: "Comedy"
     }
 ]

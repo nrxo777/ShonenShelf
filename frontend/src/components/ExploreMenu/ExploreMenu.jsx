@@ -1,26 +1,41 @@
-import React from 'react'
-import './ExploreMenu.css'
-import { menu_list } from '../../assets/assets'
+import React from "react";
+import "./ExploreMenu.css";
+import { menu_list } from "../../assets/assets";
 
-const ExploreMenu = ({category, setCategory}) => {
-
+const ExploreMenu = ({ category, setCategory }) => {
   return (
-    <div className='explore-menu' id='explore-menu'>
-        <h1>Explore Our Menu</h1>
-        <p className='explore-menu-text'>Choose from a diverse menu featuring a delectable array of dishes. Our mission is to satisfy your cravings and elevate your dining exprerience, one delicious meal at a time.</p>
-        <div className="explore-menu-list">
-            {menu_list.map( (item, index) => {
-                return (
-                    <div onClick={() => setCategory(prev=>prev===item.menu_name?"All":item.menu_name)} key={index} className='explore-menu-list-item'>
-                        <img className={category===item.menu_name?"active":""} src={item.menu_image} alt="" />
-                        <p>{item.menu_name}</p>
-                    </div>
+    <div className="explore-menu" id="explore-menu">
+      <h1>Explore Our Menu</h1>
+      <p className="explore-menu-text">
+        Dive into a vast library of captivating stories, vibrant artwork, and
+        unforgettable characters. Explore new worlds, rediscover classics, and
+        satisfy your anime and manga cravings all in one place.
+      </p>
+      <div className="explore-menu-list">
+        {menu_list.map((item, index) => {
+          return (
+            <div
+              onClick={() =>
+                setCategory((prev) =>
+                  prev === item.menu_name ? "All" : item.menu_name
                 )
-            } )}
-        </div>
-        <hr />
+              }
+              key={index}
+              className="explore-menu-list-item"
+            >
+              <img
+                className={category === item.menu_name ? "active" : ""}
+                src={item.menu_image}
+                alt=""
+              />
+              <p>{item.menu_name}</p>
+            </div>
+          );
+        })}
+      </div>
+      <hr />
     </div>
-  )
-}
+  );
+};
 
-export default ExploreMenu
+export default ExploreMenu;
