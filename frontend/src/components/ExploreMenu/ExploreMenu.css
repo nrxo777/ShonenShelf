@@ -7,43 +7,31 @@
 .explore-menu h1{
     color: #262626;
     font-weight: 500;
+    text-align: center;
 }
 
 .explore-menu-text{
-    max-width: 60%;
+    /* max-width: 60%; */
     columns: #808080;
-}
-
-/* .explore-menu-list{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    grid-area: 30px;
     text-align: center;
-    margin: 20px 0px;
-    overflow-x: scroll;
-
-    &::-webkit-scrollbar {
-        display: none;
-    }
-} */
+}
 
 .explore-menu-list {
     display: flex;
-    justify-content: space-between; /* Or center if you want them centered */
+    justify-content: space-between; 
     align-items: center;
     text-align: center;
-    margin: 20px 0; /* Shorthand for margin: 20px 0px; */
-    flex-wrap: wrap; /* Key for responsiveness */
+    margin: 20px 0; 
+    flex-wrap: wrap;
 }
 
-.explore-menu-list > * { /* Targets direct children of the list */
-    margin: 10px; /* Adjust spacing between items */
+.explore-menu-list > * { 
+    margin: 10px; 
 }
 
-/* Consider styling the scrollbar instead of hiding it */
+
 .explore-menu-list::-webkit-scrollbar {
-    width: 8px; /* Adjust width as needed */
+    width: 8px; 
 }
 
 .explore-menu-list::-webkit-scrollbar-thumb {
